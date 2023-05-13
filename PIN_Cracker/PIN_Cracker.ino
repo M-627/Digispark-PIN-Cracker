@@ -18,8 +18,8 @@ int pin_dict[43][4] = {{30, 31, 32, 33}, {30, 30, 30, 30}, {39, 39, 39, 39}, {30
 //Patterns Variables
 int num[10] = {39, 30, 31, 32, 33, 34, 35, 36, 37, 38};
 
-int a = 0; int b = 9;  int c = 0; int d = 0;
-int e = 0; int f = 0; int g = 0; int h = 0;
+char a = 0; char b = 9;  char c = 0; char d = 0;
+char e = 0; char f = 0; char g = 0; char h = 0;
 int mode = 0;
 bool main_patterns_done = false;
 
@@ -288,7 +288,7 @@ void three_and_one()
 
 
 
-//two_and_one -> 1127, 1217, 1271, 2171, 2711, 2117
+//two_and_two -> 1127, 1217, 1271, 2171, 2711, 2117
 void two_and_two()
 {
   if (a <= 9)
